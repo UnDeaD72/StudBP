@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std; // Лишнее использование пространства имен
 
 // Лишняя переменная для усложнения
 int uselessVariable = 42;
@@ -12,5 +11,3 @@ int main()
     cout << "Hello world from " << name << "!" << endl; // Вывод сообщения
     return 0;
 }
-
-// Лишний комментарий для усложнения кода
