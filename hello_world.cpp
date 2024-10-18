@@ -1,13 +1,12 @@
 #include <iostream>
 
-// Лишняя переменная для усложнения
-int uselessVariable = 42;
+// Переменная для усложнения кода
+int gUselessVariable = 42;
 
-int main()
-{
-    string name; // Переменная для хранения имени пользователя
-    cout << "Enter your name: "; // Запрос имени
-    cin >> name; // Ввод имени
-    cout << "Hello world from " << name << "!" << endl; // Вывод сообщения
+int main() {
+    string userName;  // Переменная для хранения имени пользователя
+    cout << "Enter your name: ";  // Запрос имени
+    cin >> userName;  // Ввод имени
+    cout << "Hello world from " << userName << "!" << endl;  // Вывод сообщения
     return 0;
 }
